@@ -2,8 +2,8 @@
   "name": "mini-vue",
   "version": "0.0.1",
   "description": "Help you learn more efficiently vue3 source code",
-  "main": "lib/mini-vue.cjs.js",
-  "module": "lib/mini-vue.esm.js",
+  "main": "lib/mini-vue-build.cjs.js",
+  "module": "lib/mini-vue-build.esm.js",
   "scripts": {
     "build": "rollup -c",
     "build:type": "tsc -p ./tsconfig.type.json",
